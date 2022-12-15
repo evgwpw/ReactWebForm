@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": [ "dom", "dom.iterable", "esnext" ],
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "target": "ES5",    
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "CommonJS",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "watch": true
+
+  },
+  "include": [ "src/*" ],
+  "exclude": [ "node_modules" ]
+}
